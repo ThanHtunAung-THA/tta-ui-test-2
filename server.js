@@ -8,7 +8,8 @@ const PORT = 3001;
 app.use(cors());
 
 const API_KEY = '2';
-const BASE_URL = 'https://theaudiodb.com/api/v1/json';
+const BASE_URL = 'https://www.theaudiodb.com/api/v1/json';
+// const BASE_URL_2 = 'https://www.theaudiodb.com/api/v1/json/{API_KEY}/artist.php?i=112024';
 
 // Proxy endpoint
 app.get('/api/*', async (req, res) => {
